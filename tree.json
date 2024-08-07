@@ -1,0 +1,181 @@
+[
+{
+    "model": "tree.menu",
+    "pk": 1,
+    "fields": {
+        "name": "category_shop"
+    }
+},
+{
+    "model": "tree.menu",
+    "pk": 2,
+    "fields": {
+        "name": "category_games"
+    }
+},
+{
+    "model": "tree.menuitem",
+    "pk": 1,
+    "fields": {
+        "menu": 1,
+        "parent": null,
+        "name": "Бытовая техника",
+        "url": "/appliances/",
+        "named_url": ""
+    }
+},
+{
+    "model": "tree.menuitem",
+    "pk": 2,
+    "fields": {
+        "menu": 1,
+        "parent": null,
+        "name": "Смартфоны и гаджеты",
+        "url": "/smarphones-gadget/",
+        "named_url": ""
+    }
+},
+{
+    "model": "tree.menuitem",
+    "pk": 3,
+    "fields": {
+        "menu": 1,
+        "parent": null,
+        "name": "Компьютеры",
+        "url": "/computers/",
+        "named_url": ""
+    }
+},
+{
+    "model": "tree.menuitem",
+    "pk": 4,
+    "fields": {
+        "menu": 1,
+        "parent": 1,
+        "name": "Встраиваемая техника",
+        "url": "/built-in-appliances/",
+        "named_url": ""
+    }
+},
+{
+    "model": "tree.menuitem",
+    "pk": 5,
+    "fields": {
+        "menu": 1,
+        "parent": 1,
+        "name": "Техника для кухни",
+        "url": "/kitchen-appliances/",
+        "named_url": ""
+    }
+},
+{
+    "model": "tree.menuitem",
+    "pk": 6,
+    "fields": {
+        "menu": 1,
+        "parent": 2,
+        "name": "Смартфоны",
+        "url": "/smartphones/",
+        "named_url": ""
+    }
+},
+{
+    "model": "tree.menuitem",
+    "pk": 7,
+    "fields": {
+        "menu": 1,
+        "parent": 2,
+        "name": "Гаджеты",
+        "url": "/gadgets/",
+        "named_url": ""
+    }
+},
+{
+    "model": "tree.menuitem",
+    "pk": 8,
+    "fields": {
+        "menu": 1,
+        "parent": 3,
+        "name": "Ноутбуки",
+        "url": "/laptops/",
+        "named_url": ""
+    }
+},
+{
+    "model": "tree.menuitem",
+    "pk": 9,
+    "fields": {
+        "menu": 1,
+        "parent": 3,
+        "name": "Аксессуары для пк",
+        "url": "/accessories-for-PC/",
+        "named_url": ""
+    }
+},
+{
+    "model": "tree.menuitem",
+    "pk": 10,
+    "fields": {
+        "menu": 1,
+        "parent": 8,
+        "name": "Ноутбуки для работы",
+        "url": "/work-laptops/",
+        "named_url": ""
+    }
+},
+{
+    "model": "tree.menuitem",
+    "pk": 11,
+    "fields": {
+        "menu": 1,
+        "parent": 8,
+        "name": "Ноутбуки для игр",
+        "url": "/game-laptops/",
+        "named_url": ""
+    }
+},
+{
+    "model": "tree.menuitem",
+    "pk": 12,
+    "fields": {
+        "menu": 2,
+        "parent": null,
+        "name": "Экшен",
+        "url": "/action/",
+        "named_url": ""
+    }
+},
+{
+    "model": "tree.menuitem",
+    "pk": 13,
+    "fields": {
+        "menu": 2,
+        "parent": null,
+        "name": "Ролевые игры",
+        "url": "/role-playing/",
+        "named_url": ""
+    }
+},
+{
+    "model": "tree.menuitem",
+    "pk": 14,
+    "fields": {
+        "menu": 2,
+        "parent": 12,
+        "name": "Шутеры от первого лица",
+        "url": "/first-person-shooters/",
+        "named_url": ""
+    }
+},
+{
+    "model": "tree.menuitem",
+    "pk": 15,
+    "fields": {
+        "menu": 2,
+        "parent": 12,
+        "name": "Шутеры от третьего лица",
+        "url": "/third-person-shooters/",
+        "named_url": ""
+    }
+}
+]
